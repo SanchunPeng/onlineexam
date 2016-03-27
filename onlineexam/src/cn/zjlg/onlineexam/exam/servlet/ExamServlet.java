@@ -118,7 +118,7 @@ public class ExamServlet extends BaseServlet {
 		//System.out.println(msg);
 		Score scoreNew=examService.findStudent(loginname);
 		HttpSession sessionNew = request.getSession();
-		session.setAttribute("sessionScore",sessionNew);
+		sessionNew.setAttribute("sessionScore",scoreNew);
 		Json json=new Json();
 		json.setSuccess(true);
 		json.setMsg(msg);
