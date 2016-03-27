@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>cn.itcast.vcode.servlet.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginStudentServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.student.servlet.LoginStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.student.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginManagerServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.manager.servlet.LoginManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DatagridStudent</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.student.servlet.DatagridStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SingleSelectServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.SingleSelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JudgeServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.JudgeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClozeServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.ClozeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MadeServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.MadeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.exam.servlet.ExamServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ScoreServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.exam.servlet.ScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Made1Servlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.Made1Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectChangeServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.SelectChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProgramServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.ProgramServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProgramSubmitServlet</servlet-name>
+    <servlet-class>cn.zjlg.onlineexam.question.servlet.ProgramSubmitServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginStudentServlet</servlet-name>
+    <url-pattern>/LoginStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginManagerServlet</servlet-name>
+    <url-pattern>/LoginManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DatagridStudent</servlet-name>
+    <url-pattern>/DatagridStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SingleSelectServlet</servlet-name>
+    <url-pattern>/SingleSelectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JudgeServlet</servlet-name>
+    <url-pattern>/JudgeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClozeServlet</servlet-name>
+    <url-pattern>/ClozeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MadeServlet</servlet-name>
+    <url-pattern>/MadeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamServlet</servlet-name>
+    <url-pattern>/ExamServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreServlet</servlet-name>
+    <url-pattern>/ScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Made1Servlet</servlet-name>
+    <url-pattern>/Made1Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectChangeServlet</servlet-name>
+    <url-pattern>/SelectChangeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProgramServlet</servlet-name>
+    <url-pattern>/ProgramServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProgramSubmitServlet</servlet-name>
+    <url-pattern>/ProgramSubmitServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>loginStudent.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

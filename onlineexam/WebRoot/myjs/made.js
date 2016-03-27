@@ -1,0 +1,132 @@
+
+$(function(){
+			$('#datagridSelectMade').datagrid({
+			url:'/onlineexam/MadeServlet',
+			pagination:true,
+			pageSize:10,
+			pageList:[10,15],
+			fit:true,
+			fitColumns:true,
+			nowrap:false,
+			idField:'id',
+			queryParams: {
+				method:'select'
+			},
+			columns:[[{
+				title:'编号',
+				field:'id',
+				width:30
+			},{
+				title:'题干',
+				field:'question',
+				width:170,
+			},{
+				title:'选项A',
+				field:'optionA',
+				width:100,
+			},{
+				title:'选项B',
+				field:'optionB',
+				width:100,
+			},{
+				title:'选项C',
+				field:'optionC',
+				width:100,
+			},{
+				title:'选项D',
+				field:'optionD',
+				width:100,
+			},{
+				title:'答案',
+				field:'answer',
+				width:40,
+			},{
+				title:'难易程度',
+				field:'grade',
+				width:40,
+			},{
+				title:'分数',
+				field:'point',
+				width:40,
+			}
+			]]
+			});
+			
+			
+			
+			$('#datagridJudgeMade').datagrid({
+				url:'/onlineexam/MadeServlet',
+				pagination:true,
+				pageSize:10,
+				pageList:[10,15],
+				fit:true,
+				fitColumns:true,
+				nowrap:false,
+				idField:'id',
+				queryParams: {
+					method:'judge'
+				},
+				columns:[[{
+					title:'编号',
+					field:'id',
+					width:30
+				},{
+					title:'题干',
+					field:'question',
+					width:170
+				},{
+					title:'答案',
+					field:'answer',
+					width:40
+				},{
+					title:'难易程度',
+					field:'grade',
+					width:40
+				},{
+					title:'分数',
+					field:'point',
+					width:40
+				}
+				]]
+				});
+			
+			
+			
+			
+			$('#datagridClozeMade').datagrid({
+				url:'/onlineexam/MadeServlet',
+				pagination:true,
+				pageSize:10,
+				pageList:[10,15],
+				fit:true,
+				fitColumns:true,
+				nowrap:false,
+				idField:'id',
+				queryParams: {
+					method:'cloze'
+				},
+				columns:[[{
+					title:'编号',
+					field:'id',
+					width:30
+				},{
+					title:'题干',
+					field:'question',
+					width:170
+				},{
+					title:'答案',
+					field:'answer',
+					width:40
+				},{
+					title:'难易程度',
+					field:'grade',
+					width:40
+				},{
+					title:'分数',
+					field:'point',
+					width:40
+				}
+				]]
+				});
+		
+	});
