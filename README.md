@@ -8,6 +8,7 @@
 ![Github](https://github.com/SanchunPeng/onlineexam/blob/master/img/exam_areadly.png)
 ### 前13名学生都已经完成考试，登录只会显示成绩等信息，后几名没有考试，可以进行考试。<br/>
 ![Github](https://github.com/SanchunPeng/onlineexam/blob/master/img/login_exam.png)
+### 开始考试。。。。
 ![Github](https://github.com/SanchunPeng/onlineexam/blob/master/img/exam_online.png)
 ### 考试结束马上显示客观题信息，并跳到显示页面<br/>
 ![Github](https://github.com/SanchunPeng/onlineexam/blob/master/img/exam_areadly.png)
